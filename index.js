@@ -2,7 +2,7 @@ const express = require("express");
 const { connection } = require("./db");
 const cors = require('cors');
 require("dotenv").config
-const MongodbList = require('./models/MongodbList')
+const MongodbList = require('./models/userList')
 const app = express();
 const port = process.env.PORT ;
 
